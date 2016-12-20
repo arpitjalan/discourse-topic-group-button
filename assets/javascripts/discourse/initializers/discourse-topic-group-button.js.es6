@@ -8,14 +8,6 @@ export default {
     const TopicFooterButtonsComponent = container.lookupFactory('component:topic-footer-buttons');
 
     TopicFooterButtonsComponent.reopen({
-      customButtonLabel: siteSettings.topic_group_button_label,
-      customButtonTitle: siteSettings.topic_group_button_title,
-
-      @computed('user.can_see_topic_group_button')
-      canSeeTopicGroupButton() {
-        return user && user.can_see_topic_group_button;
-      },
-
       actions: {
         clickButton() {
           window.open(siteSettings.topic_group_button_url, '_blank');

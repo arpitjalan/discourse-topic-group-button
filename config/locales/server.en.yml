@@ -1,6 +1,7 @@
 en:
   site_settings:
-    topic_group_button_url: "Button URL"
+    topic_group_button_enabled: "Enable topic group button plugin"
+    topic_group_button_url: "Button URL (&lt;USERNAME&gt; &lt;USER_ID&gt; and &lt;TOPIC_ID&gt; will be replaced)"
     topic_group_button_title: "Button title"
     topic_group_button_label: "Button label"
     topic_group_button_allowed_group: "Button will only be visible to members of specified group"
